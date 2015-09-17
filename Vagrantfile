@@ -6,9 +6,9 @@
 # backwards compatibility). Please don't change it unless you know what
 # you're doing.
 Vagrant.configure(2) do |config|
-  #config.proxy.http     = "http://proxy.val.co.jp:8080/"
-  #config.proxy.https    = "http://proxy.val.co.jp:8080/"
-  #config.proxy.no_proxy = "localhost,127.0.0.1,.example.com"
+  config.proxy.http     = "http://proxy.val.co.jp:8080/"
+  config.proxy.https    = "http://proxy.val.co.jp:8080/"
+  config.proxy.no_proxy = "localhost,127.0.0.1,.example.com"
   # The most common configuration options are documented and commented below.
   # For a complete reference, please see the online documentation at
   # https://docs.vagrantup.com.
