@@ -1,6 +1,4 @@
 /cookbooks/
-vendor/bundle/*
-/.bundle/
-/.chef/
-/.vagrant/
 /vendor/
+/.bundle/
+/.vagrant/
